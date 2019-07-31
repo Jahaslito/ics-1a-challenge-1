@@ -5,7 +5,7 @@ int main()
 int a[10], n, i;
 cout<<"Enter the number to convert: ";
 cin>>n;
-for(i=0; i<n; i++)
+for(i=0; n>0; i++)
 {
 a[i]=n%2;
 n= n/2;
